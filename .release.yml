@@ -4,7 +4,7 @@ commit:
 
 plugins:
   - npm
-  - gzip -o rollup-plugin-glslm.tar.gz helper src package.json README.md CHANGELOG.md LICENSE
+  - gzip -o rollup-plugin-glslm.tar.gz index.js package.json README.md CHANGELOG.md LICENSE
   - github -f rollup-plugin-glslm.tar.gz
 
 branchs:
